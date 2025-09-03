@@ -1,0 +1,118 @@
+body {
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginctnr {
+    position: relative;
+    width: 400px;
+    height: auto;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px; 
+}
+
+.logform {
+    margin-bottom: 20px; 
+}
+
+.sbmitlog {
+    border: solid red;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    color: red;
+    padding: 12px 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sbmitlog:hover {
+    text-decoration: underline;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease;}
+
+.logform input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid;
+    width: 100%;
+}
+
+
+#userg, #lockggg {
+    position: absolute; 
+    right: 25px;
+    top: 210px;
+}
+#mailg, #userggg {
+    position: absolute;
+    right: 25px;
+    top: 141px;
+}
+#lockg {
+    position: absolute; 
+    right: 25px;
+    top: 280px;
+}
+
+
+
+input:focus, textarea:focus {
+    outline: none; 
+  }
+
+.remfor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.deprt, .role {
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+    position: absolute;
+}
+
+
+
+
+.infmessage {
+    background-color: #e6f0fa; 
+    color: #0a3d62;            
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 16px;
+    border-left: 4px solid #3498db; 
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+}
